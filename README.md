@@ -1,7 +1,7 @@
 # Splash screen QGIS
 Storia di QGIS  attraverso le sue splash screen
 
-<img src= "https://github.com/pigreco/splash_screen_QGIS/blob/master/splash_QGIS/animazioni/from_2.0_to_3.2.gif">
+<img src= "https://github.com/pigreco/splash_screen_QGIS/blob/master/preview/from_2.0_to_3.2.gif">
 
 my BLOG:
 https://pigrecoinfinito.wordpress.com/2015/12/23/splash-screen-qgis/
