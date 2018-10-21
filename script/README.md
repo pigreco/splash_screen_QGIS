@@ -44,3 +44,5 @@
 | 2.10/ | 32 |
 | 2.18.0/ | 26 |
 | 3.4-LTR/ | 6 |
+
+[dati scapati](https://data.world/pigrecoinfinito/qgis-versioni-vs-feature)
