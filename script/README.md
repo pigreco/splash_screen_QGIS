@@ -45,4 +45,6 @@ versione|count|percent|histogram
 2.10|31|4.58|**********
 2.18.0|26|3.84|********
 
+analisi fatta con [VisiData](https://medium.com/tantotanto/visidata-il-coltellino-svizzero-per-i-dati-che-probabilmente-non-conosci-2209ffd4fa39)
+
 [dati scrapati](https://data.world/pigrecoinfinito/qgis-versioni-vs-feature)
