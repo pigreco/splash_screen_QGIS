@@ -30,7 +30,7 @@
 - s/ : /\t/g > per sostituire " : "con un tab, ovvero \t
 ```
 
-## aggiornato a 3.6 Noosa
+## aggiornato a 3.6 Noosa - feature 
 
 versione|count|percent|histogram
 --------|-----|-------|-------
