@@ -1,8 +1,11 @@
 # Scrapare i dati
 
 
-`time (curl -sL "http://changelog.qgis.org/en/qgis/version/list/" | grep -oP '/en/qgis/version/[0-9].*/' | sort | uniq | while read p; do curl -sL "http://changelog.qgis.org""$p""gnu" | grep -E '^\*' | sed -r 's/^\* //g;s/ : /\t/g'| sed -e 's|^|'"$p"'\t|' | nl;done) >./out.txt
-sed -i '1s/^/     itemsNumber\tversion\tfeature\tdescription\n/' out.txt`
+`time (curl -sL "http://changelog.qgis.org/en/qgis/version/list/" | grep -oP '/en/qgis/version/[0-9].*/' | sort | uniq | while read p; do curl -sL "http://changelog.qgis.org""$p""gnu" | grep -E '^\*' | sed -r 's/^\* //g;s/ : /\t/g'| sed -e 's|^|'"$p"'\t|' | nl;done) >./out.txt`
+
+aggiunge intestazione:
+
+`sed -i '1s/^/     itemsNumber\tversion\tfeature\tdescription\n/' out.txt`
 
 
 ## esempio dell'output
