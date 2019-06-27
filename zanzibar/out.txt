@@ -1,0 +1,723 @@
+ itemsNumber	version	feature	description
+     1	/en/qgis/version/2.10/	Symbology	Match categories to existing styles
+     2	/en/qgis/version/2.10/	Symbology	Data defined properties for font marker 
+     3	/en/qgis/version/2.10/	Symbology	Visualise and modify the graduated renderer using a histogram
+     4	/en/qgis/version/2.10/	Symbology	Vary symbol sizes using the graduated renderer
+     5	/en/qgis/version/2.10/	Symbology	New option for preventing the automatic clipping of features to the map extent
+     6	/en/qgis/version/2.10/	Symbology	Size scale and rotation have been removed from the advanced menu
+     7	/en/qgis/version/2.10/	Symbology	Size, rotation and stroke-width expressions at the symbollist level
+     8	/en/qgis/version/2.10/	Symbology	Live layer effects for layers and symbol layers
+     9	/en/qgis/version/2.10/	Labelling	&quot;Follow point&quot; alignment for multiline labels
+    10	/en/qgis/version/2.10/	Diagrams	Diagram improvements
+    11	/en/qgis/version/2.10/	Digitising	Improved geometry rotation tool
+    12	/en/qgis/version/2.10/	Data Management	Virtual fields are now updatable
+    13	/en/qgis/version/2.10/	Data Management	Line edit with auto-completer for ValueRelation edit widget
+    14	/en/qgis/version/2.10/	Data Management	Improvements to DB Manager
+    15	/en/qgis/version/2.10/	Data Management	Filter chaining for relation reference widget
+    16	/en/qgis/version/2.10/	Map Composer	Add scalebar sizing mode to fit a desired scalebar width
+    17	/en/qgis/version/2.10/	Analysis Tools	New statistical summary dock widget
+    18	/en/qgis/version/2.10/	Analysis Tools	Use logarithmic functions in the raster calculator
+    19	/en/qgis/version/2.10/	Analysis Tools	New zonal statistics features
+    20	/en/qgis/version/2.10/	Processing	More uniform and predictable names for processing outputs
+    21	/en/qgis/version/2.10/	Browser	New browser properties widget
+    22	/en/qgis/version/2.10/	Browser	New browser icon
+    23	/en/qgis/version/2.10/	General	Join parameters can now be edited
+    24	/en/qgis/version/2.10/	General	Layers with joins can now be filtered
+    25	/en/qgis/version/2.10/	General	General improvements
+    26	/en/qgis/version/2.10/	General	Improved handling of potential project file overwrites
+    27	/en/qgis/version/2.10/	General	New geometry engine
+    28	/en/qgis/version/2.10/	Data Providers	DXF Export Improvements
+    29	/en/qgis/version/2.10/	Data Providers	PostGIS provider side expression filters
+    30	/en/qgis/version/2.10/	QGIS Server	Support for tolerance parameter in WMS GetFeatureInfo requests
+    31	/en/qgis/version/2.10/	QGIS Server	GetFeature without geometry 
+    32	/en/qgis/version/2.10/	Programmability	Improvements for programmers
+     1	/en/qgis/version/2.12.0/	Symbology	Export thumbnails from style manager
+     2	/en/qgis/version/2.12.0/	Symbology	New option for limiting size in mm when using map unit sizes
+     3	/en/qgis/version/2.12.0/	Symbology	Improvements to displacement renderer
+     4	/en/qgis/version/2.12.0/	Symbology	All color ramps can now be edited
+     5	/en/qgis/version/2.12.0/	Symbology	Improved handling of SVG marker outlines
+     6	/en/qgis/version/2.12.0/	Symbology	Add pixels as option for all symbology size unit choices
+     7	/en/qgis/version/2.12.0/	Labelling	Data defined quadrant when in &quot;around point&quot; mode
+     8	/en/qgis/version/2.12.0/	Labelling	Draw only labels which fit inside polygons
+     9	/en/qgis/version/2.12.0/	Labelling	Control priority of labeling obstacles
+    10	/en/qgis/version/2.12.0/	Labelling	New options to control how polygon layers act as obstacles
+    11	/en/qgis/version/2.12.0/	Labelling	Data defined control over label priority
+    12	/en/qgis/version/2.12.0/	Labelling	Option for obstacle-only layers
+    13	/en/qgis/version/2.12.0/	Labelling	Rule-based labeling
+    14	/en/qgis/version/2.12.0/	Digitising	Digitising improvements
+    15	/en/qgis/version/2.12.0/	Data Management	DBManager Improvements
+    16	/en/qgis/version/2.12.0/	Data Management	Conditional formatting for attribute table cells
+    17	/en/qgis/version/2.12.0/	Data Management	Support for relative paths in widgets 
+    18	/en/qgis/version/2.12.0/	Map Composer	Atlas navigation improvements
+    19	/en/qgis/version/2.12.0/	Map Composer	Custom format for grid annotations
+    20	/en/qgis/version/2.12.0/	Map Composer	Multiline text handling and automatic text wrapping in composer attribute tables
+    21	/en/qgis/version/2.12.0/	Map Composer	Advanced customisation of cell background color 
+    22	/en/qgis/version/2.12.0/	Map Composer	Add fit page to contents option and options for cropping exports to contents
+    23	/en/qgis/version/2.12.0/	Map Composer	Force vector layers to render as a raster images
+    24	/en/qgis/version/2.12.0/	Map Composer	Data defined control over map layers and style presets
+    25	/en/qgis/version/2.12.0/	Map Composer	Option to hide pages from view/export 
+    26	/en/qgis/version/2.12.0/	Analysis Tools	Added number of vertices to derived fields in identify tool
+    27	/en/qgis/version/2.12.0/	Analysis Tools	Raster alignment tool
+    28	/en/qgis/version/2.12.0/	Analysis Tools	Geometry Checker and Geometry Snapper plugins
+    29	/en/qgis/version/2.12.0/	Application and Project Options	Encrypted password management
+    30	/en/qgis/version/2.12.0/	Browser	Improvements to PostGIS connections in browser
+    31	/en/qgis/version/2.12.0/	General	Filtering for field values in expression widget
+    32	/en/qgis/version/2.12.0/	General	New welcome screen
+    33	/en/qgis/version/2.12.0/	General	Ongoing improvements to code quality
+    34	/en/qgis/version/2.12.0/	General	Advanced settings editor
+    35	/en/qgis/version/2.12.0/	General	Mutually exclusive layer tree groups
+    36	/en/qgis/version/2.12.0/	General	User Interface Theme support
+    37	/en/qgis/version/2.12.0/	General	New expression functions in 2.12
+    38	/en/qgis/version/2.12.0/	General	Variables in expressions
+    39	/en/qgis/version/2.12.0/	Data Providers	PostGIS provider improvements
+    40	/en/qgis/version/2.12.0/	QGIS Server	QGIS Server Python API
+    41	/en/qgis/version/2.12.0/	QGIS Server	getMap in dxf format
+    42	/en/qgis/version/2.12.0/	Plugins	Update of the GRASS plugin
+    43	/en/qgis/version/2.12.0/	Programmability	Open scripts in external editor
+    44	/en/qgis/version/2.12.0/	Programmability	Maptools moved from app-&gt;gui
+    45	/en/qgis/version/2.12.0/	Programmability	Editing layers via `with edit(layer):`
+    46	/en/qgis/version/2.12.0/	Programmability	New API for labeling engine (QgsLabelingEngineV2) 
+    47	/en/qgis/version/2.12.0/	Programmability	New classes for PyQGIS programs
+     1	/en/qgis/version/2.14.0/	User Interface	Attribute table can be refreshed
+     2	/en/qgis/version/2.14.0/	User Interface	Directly set renderer and class symbol colors from context menu in legend
+     3	/en/qgis/version/2.14.0/	User Interface	Edit legend symbols directly from layer tree
+     4	/en/qgis/version/2.14.0/	User Interface	Show/hide all legend items via the the context menu
+     5	/en/qgis/version/2.14.0/	Symbology	Size assistant for varying line width
+     6	/en/qgis/version/2.14.0/	Symbology	Support for transparency in SVG color parameters
+     7	/en/qgis/version/2.14.0/	Symbology	Easy duplication of symbol layers
+     8	/en/qgis/version/2.14.0/	Symbology	Geometry generator symbols
+     9	/en/qgis/version/2.14.0/	Symbology	2.5D Renderer 
+    10	/en/qgis/version/2.14.0/	Symbology	Allow definition of rendering order for features
+    11	/en/qgis/version/2.14.0/	Labelling	&quot;Cartographic&quot; placement mode for point labels
+    12	/en/qgis/version/2.14.0/	Labelling	Applying label distance from symbol bounds 
+    13	/en/qgis/version/2.14.0/	Labelling	Control over label rendering order 
+    14	/en/qgis/version/2.14.0/	Labelling	Actual rendered symbol is now considered as an obstacle for point feature labels 
+    15	/en/qgis/version/2.14.0/	Digitising	Configurable rubber band color
+    16	/en/qgis/version/2.14.0/	Digitising	Trace digitising tool
+    17	/en/qgis/version/2.14.0/	Data Management	Removal of SPIT plugin
+    18	/en/qgis/version/2.14.0/	Data Management	DXF export: option to use title instead of name as DXF layer name in application and server
+    19	/en/qgis/version/2.14.0/	Data Management	Geometry type can be overridden in the vector save as dialog
+    20	/en/qgis/version/2.14.0/	Data Management	Vector joins are now saved within QLR layer-definition-files
+    21	/en/qgis/version/2.14.0/	Data Management	External Resource widget
+    22	/en/qgis/version/2.14.0/	Data Management	N:M relation editing
+    23	/en/qgis/version/2.14.0/	Layer Legend	Paste a style to multiple selected layers or to all layers in a legend group
+    24	/en/qgis/version/2.14.0/	Layer Legend	New options for filtering legend elements
+    25	/en/qgis/version/2.14.0/	Layer Legend	Filter legend by expression
+    26	/en/qgis/version/2.14.0/	Map Composer	Additional paths for composer templates
+    27	/en/qgis/version/2.14.0/	Map Composer	Multiple selection of compositions in manager
+    28	/en/qgis/version/2.14.0/	Analysis Tools	More statistics available in merge attributes tool
+    29	/en/qgis/version/2.14.0/	Analysis Tools	z/m values are shown when using the identify tool 
+    30	/en/qgis/version/2.14.0/	Analysis Tools	Unified handling of distance and area units and coordinate formats
+    31	/en/qgis/version/2.14.0/	Processing	Improved toolbox
+    32	/en/qgis/version/2.14.0/	Processing	Batch processes can be saved and later recovered from the batch processing interface
+    33	/en/qgis/version/2.14.0/	Processing	New algorithms in 2.14
+    34	/en/qgis/version/2.14.0/	Processing	Unit Tests Q/A
+    35	/en/qgis/version/2.14.0/	Processing	More informative algorithm dialog
+    36	/en/qgis/version/2.14.0/	Processing	GRASS7 v.net modules
+    37	/en/qgis/version/2.14.0/	Browser	Browser Improvements
+    38	/en/qgis/version/2.14.0/	General	Zoom to feature with right-click in attribute table
+    39	/en/qgis/version/2.14.0/	General	Changed behaviour of strpos function
+    40	/en/qgis/version/2.14.0/	General	Speed and memory improvements
+    41	/en/qgis/version/2.14.0/	General	More expression variables
+    42	/en/qgis/version/2.14.0/	General	Better control over placement of map elements
+    43	/en/qgis/version/2.14.0/	General	Paid bugfixing programme
+    44	/en/qgis/version/2.14.0/	General	Field calculator can be used to update feature&#39;s geometry 
+    45	/en/qgis/version/2.14.0/	General	New expression functions in 2.14
+    46	/en/qgis/version/2.14.0/	Data Providers	Cache WMS capabililies
+    47	/en/qgis/version/2.14.0/	Data Providers	Curved geometry support expanded
+    48	/en/qgis/version/2.14.0/	Data Providers	Better handling of time and datetime fields
+    49	/en/qgis/version/2.14.0/	Data Providers	Z/M support in delimited text provider
+    50	/en/qgis/version/2.14.0/	Data Providers	Transaction groups for postgres editing
+    51	/en/qgis/version/2.14.0/	Data Providers	Postgres provider PKI authentication
+    52	/en/qgis/version/2.14.0/	Data Providers	Virtual layers
+    53	/en/qgis/version/2.14.0/	Data Providers	More file extensions for GDAL and OGR providers file selectors
+    54	/en/qgis/version/2.14.0/	Data Providers	Use ST_RemoveRepeatedPoints for server-side simplification with PostGIS 2.2 (or newer) layers
+    55	/en/qgis/version/2.14.0/	QGIS Server	STARTINDEX param in WFS GetFeature Request 
+    56	/en/qgis/version/2.14.0/	QGIS Server	showFeatureCount in GetLegendGraphic 
+    57	/en/qgis/version/2.14.0/	QGIS Server	Option to avoid rendering artefacts at edges of tiles
+    58	/en/qgis/version/2.14.0/	QGIS Server	Configuration checker in project properties
+    59	/en/qgis/version/2.14.0/	QGIS Server	WMS INSPIRE Capabilities
+    60	/en/qgis/version/2.14.0/	QGIS Server	Add short name to layers, groups and project
+    61	/en/qgis/version/2.14.0/	Plugins	Authentication system support for plugin manager
+    62	/en/qgis/version/2.14.0/	Programmability	Redesign expression function editor
+    63	/en/qgis/version/2.14.0/	Programmability	Store python init code into the project
+    64	/en/qgis/version/2.14.0/	Programmability	New filtering and sorting options for QgsFeatureRequest
+    65	/en/qgis/version/2.14.0/	Programmability	Custom feature form Python code options
+    66	/en/qgis/version/2.14.0/	Programmability	New PyQGIS classes in 2.14
+     1	/en/qgis/version/2.16.0/	Documentation	Authentication system&#39;s documentation in users manual
+     2	/en/qgis/version/2.16.0/	Documentation	QGIS 2.14 Documentation
+     3	/en/qgis/version/2.16.0/	User Interface	Map canvas magnifier
+     4	/en/qgis/version/2.16.0/	User Interface	Improvements to map zooming
+     5	/en/qgis/version/2.16.0/	User Interface	Redesigned interactive gradient editor
+     6	/en/qgis/version/2.16.0/	User Interface	Choice of default view for the attribute dialog
+     7	/en/qgis/version/2.16.0/	User Interface	Improvements to calendar popups
+     8	/en/qgis/version/2.16.0/	User Interface	Improved color pickers
+     9	/en/qgis/version/2.16.0/	User Interface	Copy cell contents from attribute table
+    10	/en/qgis/version/2.16.0/	User Interface	Improved HiDPI support
+    11	/en/qgis/version/2.16.0/	User Interface	Improved map select tool behaviour
+    12	/en/qgis/version/2.16.0/	Symbology	Arrow symbol layer
+    13	/en/qgis/version/2.16.0/	Symbology	New &quot;Filled marker&quot; symbol layer type
+    14	/en/qgis/version/2.16.0/	Symbology	New accessibility and low vision symbols
+    15	/en/qgis/version/2.16.0/	Symbology	New simple marker symbols
+    16	/en/qgis/version/2.16.0/	Symbology	&quot;No symbol&quot; renderer
+    17	/en/qgis/version/2.16.0/	Symbology	More control over centroid fill point rendering
+    18	/en/qgis/version/2.16.0/	Symbology	Outline setting for font markers symbol
+    19	/en/qgis/version/2.16.0/	Symbology	Control outline join style for simple, ellipse, and font markers
+    20	/en/qgis/version/2.16.0/	Symbology	New map tool for interactively setting point symbol offset
+    21	/en/qgis/version/2.16.0/	Symbology	Style Dock
+    22	/en/qgis/version/2.16.0/	Labelling	Labeling map tools now work with rule-based labeling 
+    23	/en/qgis/version/2.16.0/	Diagrams	Legend entries for diagram size
+    24	/en/qgis/version/2.16.0/	Diagrams	Unit selection for outline width
+    25	/en/qgis/version/2.16.0/	Diagrams	Diagrams behave like labels and can be managed from toolbar
+    26	/en/qgis/version/2.16.0/	Rendering	New options for on the fly simplification
+    27	/en/qgis/version/2.16.0/	Rendering	Quantile based classification for raster layers
+    28	/en/qgis/version/2.16.0/	Rendering	Live hillshade renderer
+    29	/en/qgis/version/2.16.0/	Digitising	&quot;Repeating&quot; locking mode for constraints
+    30	/en/qgis/version/2.16.0/	Digitising	Extend linestring geometries with reshape tool
+    31	/en/qgis/version/2.16.0/	Digitising	Segmentation tolerance
+    32	/en/qgis/version/2.16.0/	Data Management	New configuration options for attribute table
+    33	/en/qgis/version/2.16.0/	Data Management	Multiple columns in attribute forms
+    34	/en/qgis/version/2.16.0/	Data Management	Control over attributes to export when saving a vector layer
+    35	/en/qgis/version/2.16.0/	Data Management	Forms view: side column now sortable
+    36	/en/qgis/version/2.16.0/	Data Management	Relation reference widget: shortcut for adding new values
+    37	/en/qgis/version/2.16.0/	Data Management	DXF export improvements
+    38	/en/qgis/version/2.16.0/	Data Management	Top level widgets in drag and drop designer
+    39	/en/qgis/version/2.16.0/	Data Management	Form based select and filter
+    40	/en/qgis/version/2.16.0/	Data Management	Create GeoPackage layers
+    41	/en/qgis/version/2.16.0/	Data Management	Constraints on widgets
+    42	/en/qgis/version/2.16.0/	Data Management	Edit attributes of multiple features simultaneously
+    43	/en/qgis/version/2.16.0/	Layer Legend	New option to zoom to a layer&#39;s visible scale range
+    44	/en/qgis/version/2.16.0/	Map Composer	New tools for drawing polygons and polylines
+    45	/en/qgis/version/2.16.0/	Map Composer	Relative links in composer labels
+    46	/en/qgis/version/2.16.0/	Map Composer	Embed atlas features into composer HTML source as GeoJSON
+    47	/en/qgis/version/2.16.0/	Map Composer	Parameterized svg support for composer svg images
+    48	/en/qgis/version/2.16.0/	Map Composer	Easier use of HTML in labels
+    49	/en/qgis/version/2.16.0/	Map Composer	Georeference outputs (eg PDF) from composer
+    50	/en/qgis/version/2.16.0/	Map Composer	Composer maps now auto-update with presets
+    51	/en/qgis/version/2.16.0/	Analysis Tools	Named parameters in expressions
+    52	/en/qgis/version/2.16.0/	Analysis Tools	More distance units
+    53	/en/qgis/version/2.16.0/	Analysis Tools	Changes to expressions
+    54	/en/qgis/version/2.16.0/	Analysis Tools	Statistics for string and date fields
+    55	/en/qgis/version/2.16.0/	Analysis Tools	Show curve point radius in info tool
+    56	/en/qgis/version/2.16.0/	Analysis Tools	Aggregate support for expressions
+    57	/en/qgis/version/2.16.0/	Analysis Tools	fTools plugin has been replaced with Processing algorithms
+    58	/en/qgis/version/2.16.0/	Processing	Set point locations by clicking on canvas
+    59	/en/qgis/version/2.16.0/	Processing	Support for expressions and variables
+    60	/en/qgis/version/2.16.0/	Processing	Preconfigured algorithms
+    61	/en/qgis/version/2.16.0/	Processing	Create a plugin with script-based algorithms from the toolbox
+    62	/en/qgis/version/2.16.0/	Processing	Use of authentication manager in PostGIS related algorithms
+    63	/en/qgis/version/2.16.0/	Processing	Support for writing tables with no geometry
+    64	/en/qgis/version/2.16.0/	Processing	Additional GRASS algorithms in processing
+    65	/en/qgis/version/2.16.0/	General	Copying features in GeoJSON format
+    66	/en/qgis/version/2.16.0/	General	Store spatial bookmarks in project files
+    67	/en/qgis/version/2.16.0/	General	Support for GNSS GNRMC messages
+    68	/en/qgis/version/2.16.0/	General	Paste GeoJSON features directly into QGIS
+    69	/en/qgis/version/2.16.0/	General	Map tip improvements
+    70	/en/qgis/version/2.16.0/	General	Desktop MIME icons for QGIS file types
+    71	/en/qgis/version/2.16.0/	Data Providers	OGR datasets are opened in read-only mode by default
+    72	/en/qgis/version/2.16.0/	Data Providers	Improved handling of Postgres DOMAIN type fields 
+    73	/en/qgis/version/2.16.0/	Data Providers	Make readOnly mode of vector layers configurable in project
+    74	/en/qgis/version/2.16.0/	Data Providers	Support for DB2 databases
+    75	/en/qgis/version/2.16.0/	Data Providers	Refresh Postgres materialized views in db manager
+    76	/en/qgis/version/2.16.0/	Data Providers	OGR FID attribute shown
+    77	/en/qgis/version/2.16.0/	Data Providers	ArcGIS Map and Feature REST services
+    78	/en/qgis/version/2.16.0/	Data Providers	Save styles in MS SQL and Oracle databases
+    79	/en/qgis/version/2.16.0/	Data Providers	Rename fields in layers
+    80	/en/qgis/version/2.16.0/	Data Providers	Basic support for Oracle Workspace Manager
+    81	/en/qgis/version/2.16.0/	Data Providers	Massive improvements to WFS Provider
+    82	/en/qgis/version/2.16.0/	Data Providers	Generation of default values on Postgres layers &quot;just in time&quot;
+    83	/en/qgis/version/2.16.0/	QGIS Server	Redlining support in GetMap and GetPrint
+    84	/en/qgis/version/2.16.0/	QGIS Server	Default datum transformation for server
+    85	/en/qgis/version/2.16.0/	Plugins	Refreshed globe plugin
+    86	/en/qgis/version/2.16.0/	Plugins	Globe: Extrude objects
+    87	/en/qgis/version/2.16.0/	Plugins	Globe: Vector support
+    88	/en/qgis/version/2.16.0/	Plugins	Globe: Vertical exaggeration for DTM
+    89	/en/qgis/version/2.16.0/	Plugins	API: Add pages to vector layer properties
+    90	/en/qgis/version/2.16.0/	Programmability	Embedded widgets in layer tree
+    91	/en/qgis/version/2.16.0/	Programmability	Plugins can add pages to vector layer properties
+    92	/en/qgis/version/2.16.0/	Programmability	New PyQGIS classes in 2.16
+    93	/en/qgis/version/2.16.0/	Notable Fixes	QGIS Paid Bugfixing Programme
+     1	/en/qgis/version/2.18.0/	Symbology	Color picker is now embedded in layer style panel 
+     2	/en/qgis/version/2.18.0/	Labelling	Substitution list support for labeling 
+     3	/en/qgis/version/2.18.0/	Labelling	Improved line label placement algorithm
+     4	/en/qgis/version/2.18.0/	Labelling	Label polygons using curved labels along perimeter 
+     5	/en/qgis/version/2.18.0/	Rendering	Preview of raster tiles (WMTS and XYZ layers)
+     6	/en/qgis/version/2.18.0/	Rendering	Cancellable rendering of rasters (WMS, WMTS, WCS and XYZ layers)
+     7	/en/qgis/version/2.18.0/	Data Management	Add flag to only copy selected features 
+     8	/en/qgis/version/2.18.0/	Forms and Widgets	Allow controlling labels for individual edit widgets
+     9	/en/qgis/version/2.18.0/	Forms and Widgets	Conditional visibility for tabs and group boxes
+    10	/en/qgis/version/2.18.0/	Forms and Widgets	Client side default field values
+    11	/en/qgis/version/2.18.0/	Map Composer	True North Arrows
+    12	/en/qgis/version/2.18.0/	Processing	Point on surface algorithm
+    13	/en/qgis/version/2.18.0/	Processing	Processing dissolve algorithm accepts multiple fields  
+    14	/en/qgis/version/2.18.0/	Processing	Optimised processing clip algorithm
+    15	/en/qgis/version/2.18.0/	Processing	Bounding boxes algorithm
+    16	/en/qgis/version/2.18.0/	Processing	Merge connected lines algorithm
+    17	/en/qgis/version/2.18.0/	Processing	Geometry boundary algorithm
+    18	/en/qgis/version/2.18.0/	General	Automatic links in identify results
+    19	/en/qgis/version/2.18.0/	General	Mouse wheel over color dialog sliders
+    20	/en/qgis/version/2.18.0/	General	Add custom color schemes to color button drop down menu
+    21	/en/qgis/version/2.18.0/	Data Providers	Native support of XYZ tile layers
+    22	/en/qgis/version/2.18.0/	QGIS Server	Possibility to segmentize feature info geometry in server
+    23	/en/qgis/version/2.18.0/	Plugins	DB Manager: Add the ability to update SQL Layer
+    24	/en/qgis/version/2.18.0/	Programmability	Expose GEOS linear referencing function to QgsGeometry
+    25	/en/qgis/version/2.18.0/	Programmability	New PyQGIS classes in 2.18
+    26	/en/qgis/version/2.18.0/	Programmability	New expression functions
+     1	/en/qgis/version/3.0.0/	Expressions	New expression variables
+     2	/en/qgis/version/3.0.0/	Expressions	new global expression variable @qgis_locale
+     3	/en/qgis/version/3.0.0/	Expressions	New expression variables for map settings
+     4	/en/qgis/version/3.0.0/	Expressions	New expression functions
+     5	/en/qgis/version/3.0.0/	Expressions	Expose @parent variable in aggregate functions
+     6	/en/qgis/version/3.0.0/	Expressions	item_variables expression function inside compositions
+     7	/en/qgis/version/3.0.0/	Documentation	Processing algorithms enhancements
+     8	/en/qgis/version/3.0.0/	User Interface	Enable tabbed floating docks
+     9	/en/qgis/version/3.0.0/	User Interface	Add support for fine-resolution mouse wheel zooming
+    10	/en/qgis/version/3.0.0/	User Interface	add search bar to the Configure Shortcuts dialog
+    11	/en/qgis/version/3.0.0/	User Interface	Locator bar
+    12	/en/qgis/version/3.0.0/	User Interface	More non-blocking, inline editing
+    13	/en/qgis/version/3.0.0/	User Interface	Add an option to show user color schemes menus
+    14	/en/qgis/version/3.0.0/	User Interface	Color setting for map canvas north arrow decoration
+    15	/en/qgis/version/3.0.0/	User Interface	Improved map canvas&#39; save as image
+    16	/en/qgis/version/3.0.0/	User Interface	Toggle visibility of opened panels in main window
+    17	/en/qgis/version/3.0.0/	User Interface	Improved consistency to the user interface
+    18	/en/qgis/version/3.0.0/	User Interface	Open layers in a single group
+    19	/en/qgis/version/3.0.0/	Symbology	Data defined symbol layer visibility
+    20	/en/qgis/version/3.0.0/	Symbology	save and restore color ramp used for singleband pseudocolor rendering
+    21	/en/qgis/version/3.0.0/	Symbology	Add Points  and Inches to available symbol units
+    22	/en/qgis/version/3.0.0/	Symbology	New color ramp button widget
+    23	/en/qgis/version/3.0.0/	Symbology	Style management re-work and upgrade
+    24	/en/qgis/version/3.0.0/	Symbology	Support setting of color and transparency on multiple items for raster renderers
+    25	/en/qgis/version/3.0.0/	Symbology	Show an alpha slider in color button drop down menu
+    26	/en/qgis/version/3.0.0/	Symbology	Raster stretch toolbar actions support for pseudocolor renderer
+    27	/en/qgis/version/3.0.0/	Symbology	Transparency support for paletted renderer
+    28	/en/qgis/version/3.0.0/	Symbology	raster auto-stretching when updating canvas
+    29	/en/qgis/version/3.0.0/	Symbology	Control over annotation contents margins
+    30	/en/qgis/version/3.0.0/	Symbology	Annotations can be styled using fill symbol styles
+    31	/en/qgis/version/3.0.0/	Symbology	Point cluster renderer
+    32	/en/qgis/version/3.0.0/	Symbology	NEW MAP COLORING ALGORITHMS IN QGIS 3.0
+    33	/en/qgis/version/3.0.0/	Symbology	 New &quot;preset&quot; colors color ramp option
+    34	/en/qgis/version/3.0.0/	Symbology	Allow symbol layers to be temporarily disabled
+    35	/en/qgis/version/3.0.0/	Symbology	Easy styling of discrete rasters
+    36	/en/qgis/version/3.0.0/	Labelling	Allow label font size in mm/pixels
+    37	/en/qgis/version/3.0.0/	Labelling	Custom labelling toolbar is now always enabled
+    38	/en/qgis/version/3.0.0/	Diagrams	Data definable properties
+    39	/en/qgis/version/3.0.0/	Rendering	Live layer support
+    40	/en/qgis/version/3.0.0/	Rendering	Trigger layer refresh or layer actions from PostgreSQL NOTIFY signal 
+    41	/en/qgis/version/3.0.0/	Rendering	Cache labeling result to avoid unnecessary redraws     when refreshing canvas
+    42	/en/qgis/version/3.0.0/	Rendering	Grid renderer for points displacement
+    43	/en/qgis/version/3.0.0/	Digitising	Range vertex selection in node tool
+    44	/en/qgis/version/3.0.0/	Digitising	Add default Z value option
+    45	/en/qgis/version/3.0.0/	Digitising	Move feature now benefits from Advanced Digitizing
+    46	/en/qgis/version/3.0.0/	Digitising	Added  functionnality to copy/move feature to move feature map tool
+    47	/en/qgis/version/3.0.0/	Digitising	Tracing with offset
+    48	/en/qgis/version/3.0.0/	Digitising	Overhaul of the Vertex tool
+    49	/en/qgis/version/3.0.0/	Digitising	Vertex tool: mid-point markers to add vertices
+    50	/en/qgis/version/3.0.0/	Digitising	Vertex tool: continue line
+    51	/en/qgis/version/3.0.0/	Digitising	Vertex tool: support for advanced digitizing panel
+    52	/en/qgis/version/3.0.0/	Data Management	Pan to current feature in attribute table
+    53	/en/qgis/version/3.0.0/	Data Management	Map of CRS-extent in Project properties 
+    54	/en/qgis/version/3.0.0/	Data Management	Auxilliary Storage Support
+    55	/en/qgis/version/3.0.0/	Data Management	Metadata overhaul
+    56	/en/qgis/version/3.0.0/	Data Management	Unified data source manager dialog
+    57	/en/qgis/version/3.0.0/	Data Management	OSM Downloader tool removed
+    58	/en/qgis/version/3.0.0/	Forms and Widgets	Allow controlling labels for individual edit widgets
+    59	/en/qgis/version/3.0.0/	Forms and Widgets	Allow configuring link/unlink feature buttons on relation editor widget
+    60	/en/qgis/version/3.0.0/	Forms and Widgets	conditional visibility for tabs and groupboxes
+    61	/en/qgis/version/3.0.0/	Forms and Widgets	Smarter default edit widgets with plugins to pick them
+    62	/en/qgis/version/3.0.0/	Forms and Widgets	Field constraints can be enforced or not
+    63	/en/qgis/version/3.0.0/	Forms and Widgets	Add layer scoped actions
+    64	/en/qgis/version/3.0.0/	Forms and Widgets	Show field values in autocompleter in form filter mode
+    65	/en/qgis/version/3.0.0/	Forms and Widgets	Add zoom to features and flash features shortcuts in select by form dialog
+    66	/en/qgis/version/3.0.0/	Forms and Widgets	Add between/not between to numerical fields in select by form
+    67	/en/qgis/version/3.0.0/	Layer Legend	Hide Deselected Layers action
+    68	/en/qgis/version/3.0.0/	Layer Legend	Change of ergonomy of the visibility of layers inside groups
+    69	/en/qgis/version/3.0.0/	Map Composer	Control over drawing of composer table grid horizontal &amp; vertical lines
+    70	/en/qgis/version/3.0.0/	Map Composer	Drag qpt to QGIS to create new composer from template
+    71	/en/qgis/version/3.0.0/	Map Composer	Allow customization of line spacing for composer legend item labels
+    72	/en/qgis/version/3.0.0/	Map Composer	Allow choice of CRS for map items
+    73	/en/qgis/version/3.0.0/	Map Composer	Holding shift while drawing polyline/polygon constrains     line angles
+    74	/en/qgis/version/3.0.0/	Map Composer	More data definable controls
+    75	/en/qgis/version/3.0.0/	Map Composer	Map Composer Overhaul
+    76	/en/qgis/version/3.0.0/	Analysis Tools	Raster unique values count for processing
+    77	/en/qgis/version/3.0.0/	Processing	 New algorithm for offsetting lines
+    78	/en/qgis/version/3.0.0/	Processing	New algorithm for single sided buffers
+    79	/en/qgis/version/3.0.0/	Processing	Add choice of simplification method to simplify
+    80	/en/qgis/version/3.0.0/	Processing	support for output geometry types in models
+    81	/en/qgis/version/3.0.0/	Processing	Angle threshold for smooth algorithm
+    82	/en/qgis/version/3.0.0/	Processing	Better support for Z/M dimensions and curved geometries
+    83	/en/qgis/version/3.0.0/	Processing	Raster analysis algorithms added to Processing
+    84	/en/qgis/version/3.0.0/	Processing	New algorithm to extract specific nodes
+    85	/en/qgis/version/3.0.0/	Processing	expose zonal statistics from Zonal statistics plugin in toolbox
+    86	/en/qgis/version/3.0.0/	Processing	add a spatialite execute SQL algorithm
+    87	/en/qgis/version/3.0.0/	Processing	New algorithm to extend lines
+    88	/en/qgis/version/3.0.0/	Processing	New extract by expression algorithm
+    89	/en/qgis/version/3.0.0/	Processing	add import into spatialite algorithm
+    90	/en/qgis/version/3.0.0/	Processing	Interpolation algorithms
+    91	/en/qgis/version/3.0.0/	Processing	New algorithm to compute geometry by expression
+    92	/en/qgis/version/3.0.0/	Processing	Snap geometries to layer algorithm
+    93	/en/qgis/version/3.0.0/	Processing	New input type for expressions
+    94	/en/qgis/version/3.0.0/	Processing	SplitWithLines
+    95	/en/qgis/version/3.0.0/	Processing	pole of inaccessibility algorithm
+    96	/en/qgis/version/3.0.0/	Processing	Extract by attribute can extract for null/notnull values
+    97	/en/qgis/version/3.0.0/	Processing	Create attribute index algorithm
+    98	/en/qgis/version/3.0.0/	Processing	New &#39;drop geometries&#39; algorithm
+    99	/en/qgis/version/3.0.0/	Processing	New universal &#39;basic stats for field&#39; algorithm
+   100	/en/qgis/version/3.0.0/	Processing	Port heatmap plugin to processing algorithm
+   101	/en/qgis/version/3.0.0/	Processing	New algorithm to orthagonalize geometries
+   102	/en/qgis/version/3.0.0/	Processing	Network analysis algorithms
+   103	/en/qgis/version/3.0.0/	Processing	Export processing models as PDF/SVG
+   104	/en/qgis/version/3.0.0/	Processing	New algorithm to truncate tables
+   105	/en/qgis/version/3.0.0/	Processing	added ‘invalid feature handling’ option
+   106	/en/qgis/version/3.0.0/	Processing	algorithm to fix invalid geometries using native makeValid() implementation
+   107	/en/qgis/version/3.0.0/	Processing	add search to Get Scripts and Models dialog
+   108	/en/qgis/version/3.0.0/	Processing	Generic centroid algorithm
+   109	/en/qgis/version/3.0.0/	Processing	improved Extract nodes algorithm
+   110	/en/qgis/version/3.0.0/	Processing	New algorithm for translating (moving) points
+   111	/en/qgis/version/3.0.0/	Processing	Improved processing modeler window
+   112	/en/qgis/version/3.0.0/	Processing	New raster unique values report algorithm
+   113	/en/qgis/version/3.0.0/	Processing	remove TauDEM provider from core Processing
+   114	/en/qgis/version/3.0.0/	Processing	Download a file from Processing
+   115	/en/qgis/version/3.0.0/	Processing	Optimised points along geometry algorithm
+   116	/en/qgis/version/3.0.0/	Processing	Sort by expression algorithm
+   117	/en/qgis/version/3.0.0/	Application and Project Options	New zipped project file format .qgz 
+   118	/en/qgis/version/3.0.0/	Application and Project Options	Add support for user profiles
+   119	/en/qgis/version/3.0.0/	Browser	Drag&#39;n&#39;drop layers from layer tree view to browser dock
+   120	/en/qgis/version/3.0.0/	Browser	Standalone QGIS Browser application removed
+   121	/en/qgis/version/3.0.0/	General	Remove zonal stats plugin
+   122	/en/qgis/version/3.0.0/	General	Remove dxf2shp converter plugin
+   123	/en/qgis/version/3.0.0/	General	Remove orphaned oracle raster plugin
+   124	/en/qgis/version/3.0.0/	General	remove TauDEM provider from core Processing
+   125	/en/qgis/version/3.0.0/	General	More help and possibility to configure location of the QGIS help files
+   126	/en/qgis/version/3.0.0/	General	Migrate Photo, WebView and FileName widgets to Attachment
+   127	/en/qgis/version/3.0.0/	General	Removed otb and lidartools providers from processing
+   128	/en/qgis/version/3.0.0/	Data Providers	New unified &#39;add layer&#39; dialog
+   129	/en/qgis/version/3.0.0/	Data Providers	GeoPackage
+   130	/en/qgis/version/3.0.0/	Data Providers	Support all GDAL writable raster formats for &#39;Save as&#39; dialog on raster layers
+   131	/en/qgis/version/3.0.0/	Data Providers	Support for Z/M geometries in gpkg, spatialite and memory layer provider
+   132	/en/qgis/version/3.0.0/	Data Providers	Unique and not-null constraint handling
+   133	/en/qgis/version/3.0.0/	Data Providers	GeoNode integration
+   134	/en/qgis/version/3.0.0/	Data Providers	Detect literal default values for spatialite provider
+   135	/en/qgis/version/3.0.0/	Data Providers	Create attribute index support for spatialite provider
+   136	/en/qgis/version/3.0.0/	Data Providers	Add support for arrays
+   137	/en/qgis/version/3.0.0/	Data Providers	Support for HStore in PostGIS data provider
+   138	/en/qgis/version/3.0.0/	Data Providers	Add auto-discovery of relations for PostgresQL
+   139	/en/qgis/version/3.0.0/	Data Providers	Data dependencies between layers
+   140	/en/qgis/version/3.0.0/	Data Providers	dxf export: support reprojection
+   141	/en/qgis/version/3.0.0/	Data Providers	Load/save style in database for GPKG and Spatialite
+   142	/en/qgis/version/3.0.0/	Data Providers	Improved handling of defaults
+   143	/en/qgis/version/3.0.0/	QGIS Server	QGIS Server overhaul
+   144	/en/qgis/version/3.0.0/	QGIS Server	Possibility to segmentize feature info geometry in server
+   145	/en/qgis/version/3.0.0/	Plugins	Remove trusted status from Plugin Manager
+   146	/en/qgis/version/3.0.0/	Plugins	Offline editing: Add flag to only copy selected features
+   147	/en/qgis/version/3.0.0/	Plugins	GDALTools moved to Processing
+   148	/en/qgis/version/3.0.0/	Plugins	allow installing plugins from local ZIP packages
+   149	/en/qgis/version/3.0.0/	Plugins	Plugins can provide a custom help in Expression window
+   150	/en/qgis/version/3.0.0/	Programmability	Geometry class updates
+   151	/en/qgis/version/3.0.0/	Programmability	Task manager
+   152	/en/qgis/version/3.0.0/	Programmability	API to allow drag&#39;n&#39;drop of custom browser items
+   153	/en/qgis/version/3.0.0/	3D Features	3D map view and terrain generation
+   154	/en/qgis/version/3.0.0/	3D Features	3D renderers for map layers
+     1	/en/qgis/version/3.2.0/	Map Tools	Simplify map tool can now also smooth features 
+     2	/en/qgis/version/3.2.0/	Map Tools	Identify Tool with extra options
+     3	/en/qgis/version/3.2.0/	Map Tools	Store also expanded/collapsed state of nodes in map Themes
+     4	/en/qgis/version/3.2.0/	Map Tools	Auto &quot;Zoom to Selection&quot; mode for new map views
+     5	/en/qgis/version/3.2.0/	Map Tools	Choice of simplification method for simplify map tool 
+     6	/en/qgis/version/3.2.0/	Map Tools	add zoom to related feature in forms
+     7	/en/qgis/version/3.2.0/	Map Tools	Cartesian areas/lengths/perimeters in identify results
+     8	/en/qgis/version/3.2.0/	Expressions	New expression functions
+     9	/en/qgis/version/3.2.0/	Expressions	More helpful expression builder
+    10	/en/qgis/version/3.2.0/	User Interface	Layers panel: indicators for filtered map layers
+    11	/en/qgis/version/3.2.0/	User Interface	Allow customizing prefix of locator filters
+    12	/en/qgis/version/3.2.0/	User Interface	Opening of vector and raster stored on HTTP(S), FTP, or cloud services
+    13	/en/qgis/version/3.2.0/	User Interface	Quick calculator in locator search bar 
+    14	/en/qgis/version/3.2.0/	User Interface	Shortcuts for toggling panels
+    15	/en/qgis/version/3.2.0/	User Interface	Bookmark searching in locator
+    16	/en/qgis/version/3.2.0/	User Interface	Close and Revert Project actions
+    17	/en/qgis/version/3.2.0/	User Interface	Unsaved changes indicator in title bar
+    18	/en/qgis/version/3.2.0/	User Interface	Configurable map tips delay
+    19	/en/qgis/version/3.2.0/	User Interface	Move layer or group to top of layer panel
+    20	/en/qgis/version/3.2.0/	User Interface	Copy statistics panel content to clipboard button
+    21	/en/qgis/version/3.2.0/	User Interface	Search Settings, Options, and Project Properties pages from locator
+    22	/en/qgis/version/3.2.0/	User Interface	Indicators for embedded layers and groups
+    23	/en/qgis/version/3.2.0/	Symbology	Nicer colors for new layers
+    24	/en/qgis/version/3.2.0/	Rendering	Improved map Copyright decoration
+    25	/en/qgis/version/3.2.0/	Rendering	Main window scale bar font size and family can be customized
+    26	/en/qgis/version/3.2.0/	Rendering	Custom SVG path and size for the north arrow decoration
+    27	/en/qgis/version/3.2.0/	Data Management	Refresh a materialized view
+    28	/en/qgis/version/3.2.0/	Data Management	Z and M support for offline editing
+    29	/en/qgis/version/3.2.0/	Data Management	Metadata for QGIS projects
+    30	/en/qgis/version/3.2.0/	Forms and Widgets	Multi-column layout for multiselect value relation widget
+    31	/en/qgis/version/3.2.0/	Forms and Widgets	Allow using a URL for custom attribute forms (UI file)
+    32	/en/qgis/version/3.2.0/	Forms and Widgets	Drill-down (cascading) forms
+    33	/en/qgis/version/3.2.0/	Layer Legend	Optional text on top of symbols for vector layers
+    34	/en/qgis/version/3.2.0/	Layer Legend	Copy&amp;Paste Group/Layers from a QGIS project to another. 
+    35	/en/qgis/version/3.2.0/	Map Composer	Data defined table source for attribute table items
+    36	/en/qgis/version/3.2.0/	Map Composer	Project metadata embedded in layout exports
+    37	/en/qgis/version/3.2.0/	Map Composer	Better formatting for scalebar text
+    38	/en/qgis/version/3.2.0/	Processing	Improved &#39;Join by attribute table&#39; algorithm
+    39	/en/qgis/version/3.2.0/	Processing	Load script from template
+    40	/en/qgis/version/3.2.0/	Processing	Feature filter algorithm for processing models
+    41	/en/qgis/version/3.2.0/	Processing	Zonal histogram
+    42	/en/qgis/version/3.2.0/	Processing	Port Union, Difference and Intersection algorithms to C++
+    43	/en/qgis/version/3.2.0/	Processing	&#39;Project points (cartesian)&#39; algorithm
+    44	/en/qgis/version/3.2.0/	Processing	Dynamic parameter values for more algorithms
+    45	/en/qgis/version/3.2.0/	Processing	Multi-ring buffer (constant distance) algorithm
+    46	/en/qgis/version/3.2.0/	Processing	New &quot;segmentize&quot; algorithms
+    47	/en/qgis/version/3.2.0/	Processing	Option to create points on all polygon parts
+    48	/en/qgis/version/3.2.0/	Processing	Rotate Features algorithm
+    49	/en/qgis/version/3.2.0/	Processing	Line sinuosity in &quot;Add Geometry Attributes&quot; 
+    50	/en/qgis/version/3.2.0/	Processing	Import geotagged photos
+    51	/en/qgis/version/3.2.0/	Processing	Swap x/y coordinate values algorithm
+    52	/en/qgis/version/3.2.0/	Processing	Sort order option for &quot;Add Incremental Field&quot;
+    53	/en/qgis/version/3.2.0/	Processing	Indicator for distance parameter units
+    54	/en/qgis/version/3.2.0/	Processing	Algorithm log can be saved/cleared/copied
+    55	/en/qgis/version/3.2.0/	Processing	Wedge buffer algorithm 
+    56	/en/qgis/version/3.2.0/	Processing	Variable width buffers
+    57	/en/qgis/version/3.2.0/	Processing	Reclassify raster algorithms
+    58	/en/qgis/version/3.2.0/	Processing	Union algorithm with a single layer
+    59	/en/qgis/version/3.2.0/	Application and Project Options	Mandatory layers in project
+    60	/en/qgis/version/3.2.0/	Application and Project Options	Saving and loading projects in PostgreSQL database
+    61	/en/qgis/version/3.2.0/	Browser	Save/Load connections for XYZ Tiles
+    62	/en/qgis/version/3.2.0/	Browser	Project home path can be manually set
+    63	/en/qgis/version/3.2.0/	General	New zipped project file format .qgz is now the default format 
+    64	/en/qgis/version/3.2.0/	General	Filtering for field values in Query Builder
+    65	/en/qgis/version/3.2.0/	General	FULL screen Map via Ctrl-Shift-Tab
+    66	/en/qgis/version/3.2.0/	Data Providers	Support for mesh layers
+    67	/en/qgis/version/3.2.0/	Data Providers	Automatically set default style for layers for ArcGIS Feature Server layers
+    68	/en/qgis/version/3.2.0/	Data Providers	Faster Oracle queries
+    69	/en/qgis/version/3.2.0/	Data Providers	Restrict table list for a Oracle database connection to a preset schema
+    70	/en/qgis/version/3.2.0/	Data Providers	Read only support for curved Oracle geometries 
+    71	/en/qgis/version/3.2.0/	Plugins	Adding query history in DB Manager
+    72	/en/qgis/version/3.2.0/	Plugins	DB Manager SQL execution in background
+    73	/en/qgis/version/3.2.0/	3D Features	3D Polygons: Optionally generate back faces 
+     1	/en/qgis/version/3.4-LTR/	Expressions	New expression functions and variables
+     2	/en/qgis/version/3.4-LTR/	Expressions	Code completion for expression builder
+     3	/en/qgis/version/3.4-LTR/	Map Tools	Identify or select features based on existing polygon
+     4	/en/qgis/version/3.4-LTR/	User Interface	Auto selection of exported files in file manager
+     5	/en/qgis/version/3.4-LTR/	User Interface	New &quot;Open Directory&quot; option for disabled welcome page projects
+     6	/en/qgis/version/3.4-LTR/	User Interface	UX Improvements for Temporary Scratch Layers
+     7	/en/qgis/version/3.4-LTR/	User Interface	Task manager improvements 
+     8	/en/qgis/version/3.4-LTR/	User Interface	Hyperlinks to local vector &amp; raster datasets in the information panel
+     9	/en/qgis/version/3.4-LTR/	User Interface	Style manager improvements
+    10	/en/qgis/version/3.4-LTR/	User Interface	Polished browser panel interface and experience
+    11	/en/qgis/version/3.4-LTR/	User Interface	QML chart and drawings widget
+    12	/en/qgis/version/3.4-LTR/	Symbology	Mesh layer styling
+    13	/en/qgis/version/3.4-LTR/	Symbology	Classify symmetric in graduated renderer
+    14	/en/qgis/version/3.4-LTR/	Symbology	Partial QML export and import
+    15	/en/qgis/version/3.4-LTR/	Digitising	GPS tracking improvements
+    16	/en/qgis/version/3.4-LTR/	Digitising	More angle choices in advanced digitizing dock
+    17	/en/qgis/version/3.4-LTR/	Digitising	Vertex tool can work on the current layer only
+    18	/en/qgis/version/3.4-LTR/	Digitising	Add reverse line maptools
+    19	/en/qgis/version/3.4-LTR/	Digitising	Geometry Precision
+    20	/en/qgis/version/3.4-LTR/	Digitising	Automatically remove duplicate nodes
+    21	/en/qgis/version/3.4-LTR/	Digitising	Check for geometry validity
+    22	/en/qgis/version/3.4-LTR/	Digitising	Topology checks while editing
+    23	/en/qgis/version/3.4-LTR/	Data Management	Translation of QGIS projects
+    24	/en/qgis/version/3.4-LTR/	Data Management	Switch Attribute Table dock mode on demand
+    25	/en/qgis/version/3.4-LTR/	Data Management	New locator filter to search across all layers
+    26	/en/qgis/version/3.4-LTR/	Data Management	Non-removable (required) layers highlighted in layer tree
+    27	/en/qgis/version/3.4-LTR/	Data Management	Append raster layer to an existing Geopackage
+    28	/en/qgis/version/3.4-LTR/	Forms and Widgets	Drill-down (cascading) forms in QGIS Value Relation Widgets
+    29	/en/qgis/version/3.4-LTR/	Map Composer	3D map items
+    30	/en/qgis/version/3.4-LTR/	Processing	New &quot;Edit in place&quot; mode
+    31	/en/qgis/version/3.4-LTR/	Processing	Store models inside project
+    32	/en/qgis/version/3.4-LTR/	Processing	Sample Raster Values
+    33	/en/qgis/version/3.4-LTR/	Processing	New &#39;Raster pixels to polygons&#39; algorithm
+    34	/en/qgis/version/3.4-LTR/	Processing	K Means clustering algorithm 
+    35	/en/qgis/version/3.4-LTR/	Processing	dbscan spatial clustering algorithm 
+    36	/en/qgis/version/3.4-LTR/	Processing	Improved algorithms
+    37	/en/qgis/version/3.4-LTR/	Processing	Filter Vertices by M and Filter Vertices by Z algorithms
+    38	/en/qgis/version/3.4-LTR/	Processing	&quot;Array of Translated Features&quot; algorithm
+    39	/en/qgis/version/3.4-LTR/	Processing	&quot;Array of offset (parallel) lines&quot; algorithm 
+    40	/en/qgis/version/3.4-LTR/	Processing	Choice of units for non degree/unknown distances 
+    41	/en/qgis/version/3.4-LTR/	Processing	&quot;Drape features to z/m&quot; algorithms 
+    42	/en/qgis/version/3.4-LTR/	Processing	&quot;Raster pixels to points&quot; algorithm 
+    43	/en/qgis/version/3.4-LTR/	Processing	Line substring algorithm 
+    44	/en/qgis/version/3.4-LTR/	Processing	&quot;Interpolate point on line&quot; algorithm 
+    45	/en/qgis/version/3.4-LTR/	Processing	k-neighbour concave hull
+    46	/en/qgis/version/3.4-LTR/	Processing	Python scripts which implement algorithms now execute the algorithm on drag and drop and browser double click
+    47	/en/qgis/version/3.4-LTR/	Processing	New GDAL&#39;s rearrange band algorithm
+    48	/en/qgis/version/3.4-LTR/	Processing	&quot;Precalculated&quot; values for model algorithm parameters
+    49	/en/qgis/version/3.4-LTR/	Processing	&quot;Categorize a layer using a style XML file&quot; algorithm
+    50	/en/qgis/version/3.4-LTR/	Processing	New mode for Snap geometries algorithm
+    51	/en/qgis/version/3.4-LTR/	General	Flatpak
+    52	/en/qgis/version/3.4-LTR/	General	SVG files can be embedded in projects and symbols
+    53	/en/qgis/version/3.4-LTR/	General	OpenCL based acceleration
+    54	/en/qgis/version/3.4-LTR/	Data Providers	OAuth2 authentication method plugin
+    55	/en/qgis/version/3.4-LTR/	Data Providers	Mesh layer: New mesh layer format support
+    56	/en/qgis/version/3.4-LTR/	Data Providers	Mesh layer: add function to identify value on mesh layers
+    57	/en/qgis/version/3.4-LTR/	Data Providers	Mesh layer: allow to choose different vector and scalar dataset
+    58	/en/qgis/version/3.4-LTR/	Data Providers	 Mesh layer: allow render vectors/arrows on the user-defined grid
+    59	/en/qgis/version/3.4-LTR/	Data Providers	JSON/JSONB Type support
+    60	/en/qgis/version/3.4-LTR/	Data Providers	ESRI Token Authentication support
+    61	/en/qgis/version/3.4-LTR/	Data Providers	SQL Server - Invalid geometry handling
+    62	/en/qgis/version/3.4-LTR/	QGIS Server	Server Cache can be manage by plugins 
+    63	/en/qgis/version/3.4-LTR/	QGIS Server	WMTS 1.0.0 support
+    64	/en/qgis/version/3.4-LTR/	QGIS Server	Add ability to define min. scale for WMTS
+    65	/en/qgis/version/3.4-LTR/	QGIS Server	 Support QGIS Server logs to stderr 
+    66	/en/qgis/version/3.4-LTR/	Plugins	Support for encrypted zips in the Plugin Manager
+    67	/en/qgis/version/3.4-LTR/	Plugins	Offline Editing GeoPackage
+    68	/en/qgis/version/3.4-LTR/	Programmability	QgsSpatialIndexKDBush
+    69	/en/qgis/version/3.4-LTR/	Programmability	QgsRasterDataProvider::sample method for efficient sampling of rasters at a given point
+    70	/en/qgis/version/3.4-LTR/	Programmability	New geometry API call to return a curve substring 
+    71	/en/qgis/version/3.4-LTR/	Programmability	sip Module API Changes
+    72	/en/qgis/version/3.4-LTR/	Programmability	Python vector data providers
+    73	/en/qgis/version/3.4-LTR/	3D Features	Improved navigation
+    74	/en/qgis/version/3.4-LTR/	3D Features	Animation
+    75	/en/qgis/version/3.4-LTR/	3D Features	Simple rendering of 3D linestrings 
+    76	/en/qgis/version/3.4-LTR/	3D Features	Identification map tool for 3D views
+    77	/en/qgis/version/3.4-LTR/	3D Features	Experimental Python API
+     1	/en/qgis/version/3.6.0/	Map Tools	Title label decoration
+     2	/en/qgis/version/3.6.0/	Map Tools	Top/bottom centering placement for decoration items 
+     3	/en/qgis/version/3.6.0/	Map Tools	Vertex tool fixes and improvements
+     4	/en/qgis/version/3.6.0/	Map Tools	Trim/Extend
+     5	/en/qgis/version/3.6.0/	Map Tools	Rectangle from 3 points (projected)
+     6	/en/qgis/version/3.6.0/	Map Tools	Identify tool for mesh layers
+     7	/en/qgis/version/3.6.0/	Expressions	New Expression Functions
+     8	/en/qgis/version/3.6.0/	Expressions	Square brackets to easily access map array elements
+     9	/en/qgis/version/3.6.0/	Expressions	New map expression variables
+    10	/en/qgis/version/3.6.0/	Expressions	New try() function to catch errors
+    11	/en/qgis/version/3.6.0/	User Interface	A new grayscale theme: &quot;Blend of Gray&quot;
+    12	/en/qgis/version/3.6.0/	User Interface	Multiline selections and editing in code/expression editors
+    13	/en/qgis/version/3.6.0/	Symbology	Better handling of .XML style libraries
+    14	/en/qgis/version/3.6.0/	Symbology	Optionally force right-hand-rule during polygon symbol rendering
+    15	/en/qgis/version/3.6.0/	Symbology	Option for simple lines and marker lines to only render exterior ring or interior rings
+    16	/en/qgis/version/3.6.0/	Symbology	Raster image marker
+    17	/en/qgis/version/3.6.0/	Symbology	Raster fill can have images set to remote URLs or embedded images
+    18	/en/qgis/version/3.6.0/	Symbology	Use represention values for classified renderers
+    19	/en/qgis/version/3.6.0/	Symbology	Option to merge categories in categorized renderer 
+    20	/en/qgis/version/3.6.0/	Symbology	Show Project Colors in color bound data defined buttons 
+    21	/en/qgis/version/3.6.0/	Symbology	Style manager dialog improvements
+    22	/en/qgis/version/3.6.0/	Symbology	SLD export for raster styles
+    23	/en/qgis/version/3.6.0/	Digitising	Georeferencer enhancements
+    24	/en/qgis/version/3.6.0/	Digitising	New option to avoid minimizing georeferencer when adding points 
+    25	/en/qgis/version/3.6.0/	Data Management	Comment option in db manager
+    26	/en/qgis/version/3.6.0/	Forms and Widgets	New form widget for binary (blob) fields
+    27	/en/qgis/version/3.6.0/	Map Composer	Grid frame improvements
+    28	/en/qgis/version/3.6.0/	Map Composer	Improved handling of text and label export
+    29	/en/qgis/version/3.6.0/	Map Composer	Map labeling improvements
+    30	/en/qgis/version/3.6.0/	Map Composer	Rework of map item extent/scale shortcuts
+    31	/en/qgis/version/3.6.0/	Map Composer	Layout items can &quot;block&quot; map labels
+    32	/en/qgis/version/3.6.0/	Map Composer	Warnings on exports
+    33	/en/qgis/version/3.6.0/	Map Composer	Control over stacking position of map overview extents
+    34	/en/qgis/version/3.6.0/	Map Composer	New expression variables for legend items 
+    35	/en/qgis/version/3.6.0/	Map Composer	Expressions inside legend item text
+    36	/en/qgis/version/3.6.0/	Analysis Tools	Hardware acceleration for raster calculator
+    37	/en/qgis/version/3.6.0/	Analysis Tools	Mesh calculator
+    38	/en/qgis/version/3.6.0/	Processing	New algorithm &quot;Remove duplicates by attribute&quot;
+    39	/en/qgis/version/3.6.0/	Processing	Explode HStore algorithm
+    40	/en/qgis/version/3.6.0/	Processing	Force right-hand-rule
+    41	/en/qgis/version/3.6.0/	Processing	Extract Binary Field algorithm
+    42	/en/qgis/version/3.6.0/	Processing	Split Lines by Maximum Length algorithm 
+    43	/en/qgis/version/3.6.0/	Processing	New parameter type for authentication config
+    44	/en/qgis/version/3.6.0/	Processing	 resampling and format options in the gdaladdo algorithm
+    45	/en/qgis/version/3.6.0/	Processing	Raster zonal stats algorithm
+    46	/en/qgis/version/3.6.0/	Processing	Extract Z values and Extract M values algorithms
+    47	/en/qgis/version/3.6.0/	Processing	Geodesic line split at antimeridian algorithm
+    48	/en/qgis/version/3.6.0/	Processing	Geodesic mode for &quot;Join by Lines (Hub lines)&quot; algorithm
+    49	/en/qgis/version/3.6.0/	Processing	Raster Surface Volume algorithm
+    50	/en/qgis/version/3.6.0/	Processing	Resurrected model to Python script functionality
+    51	/en/qgis/version/3.6.0/	Application and Project Options	Delete settings from the Advanced tab in options
+    52	/en/qgis/version/3.6.0/	Browser	Add &quot;export to file&quot; options for raster and vector layers within the browser
+    53	/en/qgis/version/3.6.0/	Browser	Native file/folder properties
+    54	/en/qgis/version/3.6.0/	Browser	Preview layers and attributes
+    55	/en/qgis/version/3.6.0/	Browser	Explore QGS/QGZ project files in the browser
+    56	/en/qgis/version/3.6.0/	Browser	Directly Create Geopackage and Shapefiles
+    57	/en/qgis/version/3.6.0/	Browser	Open Terminal at Path
+    58	/en/qgis/version/3.6.0/	General	Improved &quot;missing layer&quot; handling on project load
+    59	/en/qgis/version/3.6.0/	General	Optional setting for disabling version checks
+    60	/en/qgis/version/3.6.0/	General	Add a toggle action to vector layer legend items
+    61	/en/qgis/version/3.6.0/	Data Providers	Open service info for ArcGIS Feature Server layers
+    62	/en/qgis/version/3.6.0/	Data Providers	Binary blob support for OGR providers
+    63	/en/qgis/version/3.6.0/	Data Providers	ArcGIS Feature Server picture marker and picture fill support
+    64	/en/qgis/version/3.6.0/	Data Providers	ArcGIS Feature Server labeling support
+    65	/en/qgis/version/3.6.0/	Data Providers	Boolean and binary field support for memory layers
+    66	/en/qgis/version/3.6.0/	Data Providers	JSON Support for GeoPackage
+    67	/en/qgis/version/3.6.0/	Data Providers	Postgres provider: save primary key selection
+    68	/en/qgis/version/3.6.0/	Data Providers	ArcGIS Feature Server multi-field unique value support
+    69	/en/qgis/version/3.6.0/	QGIS Server	Possibility to set ATLAS_PK in GetPrint request to print atlas sheet(s)
+    70	/en/qgis/version/3.6.0/	QGIS Server	WMTS tile matrices configuration 
+    71	/en/qgis/version/3.6.0/	QGIS Server	Add JSON format for WMS GetFeatureInfo request
+    72	/en/qgis/version/3.6.0/	Plugins	DB Manager: Adds buttons to load and save an external SQL file
+    73	/en/qgis/version/3.6.0/	Programmability	New class QgsExifTools 
+    74	/en/qgis/version/3.6.0/	Programmability	Iterate over parts of a QgsGeometry
+    75	/en/qgis/version/3.6.0/	Programmability	Improved QgsLineString PyQGIS API
+    76	/en/qgis/version/3.6.0/	Programmability	PyQGIS Geometry Collection API improvements
+    77	/en/qgis/version/3.6.0/	Programmability	Easier Processing algorithm creation via @alg decorator
+    78	/en/qgis/version/3.6.0/	Programmability	Blocking (non-async) network requests 
+    79	/en/qgis/version/3.6.0/	Programmability	Custom validity checks on layout exports
+    80	/en/qgis/version/3.6.0/	Programmability	API for calculating Geodesic lines
+    81	/en/qgis/version/3.6.0/	Programmability	New class QgsQuadrilateral
+    82	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Alessandro Pasotti
+    83	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Alexander Bruy
+    84	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Jürgen Fischer
+    85	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Peter Petrik
+    86	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Julien Cabieces
+    87	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Loïc Bartoletti
+    88	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Victor Olaya
+    89	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Even Rouault
+    90	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Martin Dobias
+    91	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Nyall Dawson
+    92	/en/qgis/version/3.6.0/	Notable Fixes	Bug fixes by Hugo Mercier
+    93	/en/qgis/version/3.6.0/	3D Features	Terrain shading
+    94	/en/qgis/version/3.6.0/	3D Features	Configuration of lights in 3D map scenes
+    95	/en/qgis/version/3.6.0/	3D Features	Rule-based 3D renderer 
+    96	/en/qgis/version/3.6.0/	3D Features	Support for mesh layer (faces) in 3D
+     1	/en/qgis/version/3.8/	Expressions	Add order by support to expression aggregate and concatenation functions
+     2	/en/qgis/version/3.8/	Expressions	 Simplified variant of &quot;attribute&quot; function
+     3	/en/qgis/version/3.8/	Expressions	Retrieve vertices from the end of geometeries
+     4	/en/qgis/version/3.8/	Expressions	New Expression functions which return file info
+     5	/en/qgis/version/3.8/	Expressions	New aggregation method: concatenate_unique
+     6	/en/qgis/version/3.8/	Map Tools	Force Cartesian Measurements when Measuring Distances/Areas
+     7	/en/qgis/version/3.8/	User Interface	Save to Template Button
+     8	/en/qgis/version/3.8/	User Interface	Improved &quot;Zoom to Native Resolution&quot; behavior
+     9	/en/qgis/version/3.8/	User Interface	Drag and Drop Layers to Map Layer widgets
+    10	/en/qgis/version/3.8/	Symbology	Allow strings for font markers
+    11	/en/qgis/version/3.8/	Symbology	Point Displacement label distance factor 
+    12	/en/qgis/version/3.8/	Symbology	Hash Line symbol type
+    13	/en/qgis/version/3.8/	Symbology	Average line angles for marker and hashed line symbology
+    14	/en/qgis/version/3.8/	Symbology	Offset settings for point pattern fill symbol layers
+    15	/en/qgis/version/3.8/	Symbology	Much Improved UI for Character Marker symbol layers
+    16	/en/qgis/version/3.8/	Symbology	Live Effects Blur Radius is now hi-dpi friendly
+    17	/en/qgis/version/3.8/	Labelling	Geometry generators for labeling
+    18	/en/qgis/version/3.8/	Labelling	Label Map Tools now use click-click behavior
+    19	/en/qgis/version/3.8/	Digitising	Floating widget for advanced input next to cursor
+    20	/en/qgis/version/3.8/	Digitising	Chained add vertex at the endpoint
+    21	/en/qgis/version/3.8/	Forms and Widgets	Allow browsing feature list
+    22	/en/qgis/version/3.8/	Map Composer	Distribute spacing between items evenly
+    23	/en/qgis/version/3.8/	Map Composer	North Arrow Creation
+    24	/en/qgis/version/3.8/	Processing	Add &quot;Save layer styles into GeoPackage&quot; option for Package Layers algorithm
+    25	/en/qgis/version/3.8/	Processing	Overlap Analysis
+    26	/en/qgis/version/3.8/	Processing	Allow rounding values in ExtentFromLayer
+    27	/en/qgis/version/3.8/	Processing	New options to autofill batch processing dialog
+    28	/en/qgis/version/3.8/	Processing	Generate raster XYZ tiles
+    29	/en/qgis/version/3.8/	Processing	Integrate OTB provider to processing plugin
+    30	/en/qgis/version/3.8/	Processing	Allow expression variables to be set for a model 
+    31	/en/qgis/version/3.8/	Processing	Improved modeler UI
+    32	/en/qgis/version/3.8/	Processing	Improved handling of algorithms with known issues
+    33	/en/qgis/version/3.8/	Processing	Raster Boolean logical OR/AND algorithms 
+    34	/en/qgis/version/3.8/	Processing	New input parameter types for Print Layouts and Print Layout Items
+    35	/en/qgis/version/3.8/	Processing	New parameter type for Map Scales
+    36	/en/qgis/version/3.8/	Processing	Improved &quot;point&quot; parameter handling
+    37	/en/qgis/version/3.8/	Processing	New &quot;Print Layout Map Extent to Layer&quot; algorithm
+    38	/en/qgis/version/3.8/	Processing	Add X/Y fields to layer
+    39	/en/qgis/version/3.8/	Processing	&quot;Join attributes by nearest&quot; algorithm
+    40	/en/qgis/version/3.8/	Processing	Added the algorithm r.geomorphon to the processing toolbox
+    41	/en/qgis/version/3.8/	Processing	Expose GDAL pansharpening tool in the Processing
+    42	/en/qgis/version/3.8/	Browser	Direct access to sheets from XLSX/ODS files
+    43	/en/qgis/version/3.8/	General	Store QGIS projects inside geopackage files
+    44	/en/qgis/version/3.8/	General	Much Improved Coordinate Transform Handling
+    45	/en/qgis/version/3.8/	Data Providers	postgres provider: add support for generated identity columns
+    46	/en/qgis/version/3.8/	Data Providers	String List support for compatible layers
+    47	/en/qgis/version/3.8/	Data Providers	Much Improved ArcGIS MapServer Handling
+    48	/en/qgis/version/3.8/	Data Providers	SQL Server: handle v2 geometries, including curved and Z/M geometries
+    49	/en/qgis/version/3.8/	Data Providers	Add possbility to define one filter for several layers
+    50	/en/qgis/version/3.8/	QGIS Server	Allow configuring size for GetLegendGraphics
+    51	/en/qgis/version/3.8/	Plugins	Plugin dependencies optional support
+    52	/en/qgis/version/3.8/	Programmability	Add REGEXP SQL syntax support to spatialite provider and python connections
+    53	/en/qgis/version/3.8/	Programmability	Nearest Neighbour search in QgsSpatialIndex
+    54	/en/qgis/version/3.8/	Notable Fixes	Support for curves in DXF export
+    55	/en/qgis/version/3.8/	3D Features	Wide lines and polygon edge highlighting
+    56	/en/qgis/version/3.8/	3D Features	Export all frames from QGIS 3d animations as images
+    57	/en/qgis/version/3.8/	3D Features	Terrain generation from online source
+    58	/en/qgis/version/3.8/	3D Features	Configuration of field of view angle of camera

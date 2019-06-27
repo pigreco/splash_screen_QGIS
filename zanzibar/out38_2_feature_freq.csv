@@ -1,0 +1,19 @@
+feature|count|percent|histogram
+-------|-----|-------|------
+Processing|18|31.03|*********
+Symbology|7|12.07|***
+Data Providers|5|8.62|**
+Expressions|5|8.62|**
+3D Features|4|6.90|**
+User Interface|3|5.17|*
+Digitising|2|3.45|*
+General|2|3.45|*
+Labelling|2|3.45|*
+Map Composer|2|3.45|*
+Programmability|2|3.45|*
+Browser|1|1.72|
+Forms and Widgets|1|1.72|
+Map Tools|1|1.72|
+Notable Fixes|1|1.72|
+Plugins|1|1.72|
+QGIS Server|1|1.72|

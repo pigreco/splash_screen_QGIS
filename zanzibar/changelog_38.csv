@@ -1,0 +1,59 @@
+itemsNumber,version,feature,description
+     1,/en/qgis/version/3.8/,Expressions,Add order by support to expression aggregate and concatenation functions
+     2,/en/qgis/version/3.8/,Expressions, Simplified variant of &quot;attribute&quot; function
+     3,/en/qgis/version/3.8/,Expressions,Retrieve vertices from the end of geometeries
+     4,/en/qgis/version/3.8/,Expressions,New Expression functions which return file info
+     5,/en/qgis/version/3.8/,Expressions,New aggregation method: concatenate_unique
+     6,/en/qgis/version/3.8/,Map Tools,Force Cartesian Measurements when Measuring Distances/Areas
+     7,/en/qgis/version/3.8/,User Interface,Save to Template Button
+     8,/en/qgis/version/3.8/,User Interface,Improved &quot;Zoom to Native Resolution&quot; behavior
+     9,/en/qgis/version/3.8/,User Interface,Drag and Drop Layers to Map Layer widgets
+    10,/en/qgis/version/3.8/,Symbology,Allow strings for font markers
+    11,/en/qgis/version/3.8/,Symbology,Point Displacement label distance factor 
+    12,/en/qgis/version/3.8/,Symbology,Hash Line symbol type
+    13,/en/qgis/version/3.8/,Symbology,Average line angles for marker and hashed line symbology
+    14,/en/qgis/version/3.8/,Symbology,Offset settings for point pattern fill symbol layers
+    15,/en/qgis/version/3.8/,Symbology,Much Improved UI for Character Marker symbol layers
+    16,/en/qgis/version/3.8/,Symbology,Live Effects Blur Radius is now hi-dpi friendly
+    17,/en/qgis/version/3.8/,Labelling,Geometry generators for labeling
+    18,/en/qgis/version/3.8/,Labelling,Label Map Tools now use click-click behavior
+    19,/en/qgis/version/3.8/,Digitising,Floating widget for advanced input next to cursor
+    20,/en/qgis/version/3.8/,Digitising,Chained add vertex at the endpoint
+    21,/en/qgis/version/3.8/,Forms and Widgets,Allow browsing feature list
+    22,/en/qgis/version/3.8/,Map Composer,Distribute spacing between items evenly
+    23,/en/qgis/version/3.8/,Map Composer,North Arrow Creation
+    24,/en/qgis/version/3.8/,Processing,Add &quot;Save layer styles into GeoPackage&quot; option for Package Layers algorithm
+    25,/en/qgis/version/3.8/,Processing,Overlap Analysis
+    26,/en/qgis/version/3.8/,Processing,Allow rounding values in ExtentFromLayer
+    27,/en/qgis/version/3.8/,Processing,New options to autofill batch processing dialog
+    28,/en/qgis/version/3.8/,Processing,Generate raster XYZ tiles
+    29,/en/qgis/version/3.8/,Processing,Integrate OTB provider to processing plugin
+    30,/en/qgis/version/3.8/,Processing,Allow expression variables to be set for a model 
+    31,/en/qgis/version/3.8/,Processing,Improved modeler UI
+    32,/en/qgis/version/3.8/,Processing,Improved handling of algorithms with known issues
+    33,/en/qgis/version/3.8/,Processing,Raster Boolean logical OR/AND algorithms 
+    34,/en/qgis/version/3.8/,Processing,New input parameter types for Print Layouts and Print Layout Items
+    35,/en/qgis/version/3.8/,Processing,New parameter type for Map Scales
+    36,/en/qgis/version/3.8/,Processing,Improved &quot;point&quot; parameter handling
+    37,/en/qgis/version/3.8/,Processing,New &quot;Print Layout Map Extent to Layer&quot; algorithm
+    38,/en/qgis/version/3.8/,Processing,Add X/Y fields to layer
+    39,/en/qgis/version/3.8/,Processing,&quot;Join attributes by nearest&quot; algorithm
+    40,/en/qgis/version/3.8/,Processing,Added the algorithm r.geomorphon to the processing toolbox
+    41,/en/qgis/version/3.8/,Processing,Expose GDAL pansharpening tool in the Processing
+    42,/en/qgis/version/3.8/,Browser,Direct access to sheets from XLSX/ODS files
+    43,/en/qgis/version/3.8/,General,Store QGIS projects inside geopackage files
+    44,/en/qgis/version/3.8/,General,Much Improved Coordinate Transform Handling
+    45,/en/qgis/version/3.8/,Data Providers,postgres provider: add support for generated identity columns
+    46,/en/qgis/version/3.8/,Data Providers,String List support for compatible layers
+    47,/en/qgis/version/3.8/,Data Providers,Much Improved ArcGIS MapServer Handling
+    48,/en/qgis/version/3.8/,Data Providers,"SQL Server: handle v2 geometries, including curved and Z/M geometries"
+    49,/en/qgis/version/3.8/,Data Providers,Add possbility to define one filter for several layers
+    50,/en/qgis/version/3.8/,QGIS Server,Allow configuring size for GetLegendGraphics
+    51,/en/qgis/version/3.8/,Plugins,Plugin dependencies optional support
+    52,/en/qgis/version/3.8/,Programmability,Add REGEXP SQL syntax support to spatialite provider and python connections
+    53,/en/qgis/version/3.8/,Programmability,Nearest Neighbour search in QgsSpatialIndex
+    54,/en/qgis/version/3.8/,Notable Fixes,Support for curves in DXF export
+    55,/en/qgis/version/3.8/,3D Features,Wide lines and polygon edge highlighting
+    56,/en/qgis/version/3.8/,3D Features,Export all frames from QGIS 3d animations as images
+    57,/en/qgis/version/3.8/,3D Features,Terrain generation from online source
+    58,/en/qgis/version/3.8/,3D Features,Configuration of field of view angle of camera

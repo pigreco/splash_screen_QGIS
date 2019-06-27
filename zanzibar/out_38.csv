@@ -1,0 +1,61 @@
+itemsNumber,version,feature,description,developer,funded
+1,/en/qgis/version/3.8/,Expressions,Add order by support to expression aggregate and concatenation functions,Nyall Dawson (North Road) ,
+2,/en/qgis/version/3.8/,Expressions,redundant entry,,
+3,/en/qgis/version/3.8/,Expressions,Simplified variant of &quot;attributefunction,Nyall Dawson (North Road) ,North Road
+4,/en/qgis/version/3.8/,Expressions,Retrieve vertices from the end of geometeries,Mathieu Pellerin ,
+5,/en/qgis/version/3.8/,Expressions,New Expression Functions,Nyall Dawson (North Road) ,
+6,/en/qgis/version/3.8/,Map Tools,Force Cartesian Measurements when Measuring Distances/Areas,lbartoletti ,
+7,/en/qgis/version/3.8/,User Interface,Save to Template Button,,
+8,/en/qgis/version/3.8/,User Interface,Improved &quot;Zoom to Native Resolutionbehavior,,
+9,/en/qgis/version/3.8/,User Interface,Drag and Drop Layers to Map Layer widgets,Nyall Dawson (North Road) ,
+10,/en/qgis/version/3.8/,Symbology,Allow strings for font markers,,
+11,/en/qgis/version/3.8/,Symbology,redundant entry,,
+12,/en/qgis/version/3.8/,Symbology,redundant entry,,
+13,/en/qgis/version/3.8/,Symbology,Point Displacement label distance factor ,henrik ,
+14,/en/qgis/version/3.8/,Symbology,Hash Line symbol type,Nyall Dawson (North Road) ,anonymous 
+15,/en/qgis/version/3.8/,Symbology,Average line angles for marker and hashed line symbology,Nyall Dawson (North Road) ,anonymous 
+16,/en/qgis/version/3.8/,Symbology,Offset settings for point pattern fill symbol layers,Mathieu Pellerin ,
+17,/en/qgis/version/3.8/,Symbology,Much Improved UI for Character Marker symbol layers,Mathieu Pellerin ,
+18,/en/qgis/version/3.8/,Symbology,Live Effects Blur Radius is now hi-dpi friendly,,
+19,/en/qgis/version/3.8/,Labelling,Geometry generators for labeling,Matthias Kuhn ,
+20,/en/qgis/version/3.8/,Labelling,Label Map Tools now use click-click behavior,,
+21,/en/qgis/version/3.8/,Digitising,Floating widget for advanced input next to cursor,Olivier Dalang and OPENGIS.ch ,Kanton Schaffhausen 
+22,/en/qgis/version/3.8/,Digitising,Chained add vertex at the endpoint,Olivier Dalang and OPENGIS.ch ,Kanton Schaffhausen 
+23,/en/qgis/version/3.8/,Forms and Widgets,Allow browsing feature list,,
+24,/en/qgis/version/3.8/,Map Composer,Distribute spacing between items evenly,Matteo Nastasi ,
+25,/en/qgis/version/3.8/,Map Composer,North Arrow Creation,Nyall Dawson (North Road) ,North Road 
+26,/en/qgis/version/3.8/,Analysis Tools,redundant entry,,
+27,/en/qgis/version/3.8/,Processing,Add &quot;Save layer styles into GeoPackageoption for Package Layers algorithm,Nyall Dawson (North Road) ,North Road 
+28,/en/qgis/version/3.8/,Processing,Overlap Analysis,Nyall Dawson (North Road) ,North Road 
+29,/en/qgis/version/3.8/,Processing,Allow rounding values in ExtentFromLayer,,
+30,/en/qgis/version/3.8/,Processing,New options to autofill batch processing dialog,Nyall Dawson (North Road) ,North Road 
+31,/en/qgis/version/3.8/,Processing,Generate raster XYZ tiles,,
+32,/en/qgis/version/3.8/,Processing,redundant entry,,
+33,/en/qgis/version/3.8/,Processing,Integrate OTB provider to processing plugin,Rashad Kanavath ,
+34,/en/qgis/version/3.8/,Processing,Allow expression variables to be set for a model ,Nyall Dawson (North Road) ,North Road 
+35,/en/qgis/version/3.8/,Processing,Improved modeler UI,Nyall Dawson (North Road) ,North Road 
+36,/en/qgis/version/3.8/,Processing,Improved handling of algorithms with known issues,Nyall Dawson (North Road) ,North Road 
+37,/en/qgis/version/3.8/,Processing,Raster Boolean logical OR/AND algorithms ,Nyall Dawson (North Road) ,SMEC/SJ 
+38,/en/qgis/version/3.8/,Processing,New input parameter types for Print Layouts and Print Layout Items,Nyall Dawson (North Road) ,SMEC/SJ 
+39,/en/qgis/version/3.8/,Processing,New parameter type for Map Scales,Nyall Dawson (North Road) ,SMEC/SJ 
+40,/en/qgis/version/3.8/,Processing,Improved &quot;pointparameter handling,Nyall Dawson (North Road) ,North Road 
+41,/en/qgis/version/3.8/,Processing,New &quot;Print Layout Map Extent to Layeralgorithm,Nyall Dawson (North Road) ,SMEC/SJ 
+42,/en/qgis/version/3.8/,Processing,Add X/Y fields to layer,Nyall Dawson (North Road) ,SMEC/SJ 
+43,/en/qgis/version/3.8/,Processing,Join attributes by nearestalgorithm,Nyall Dawson (North Road) ,North Road 
+44,/en/qgis/version/3.8/,Browser,Direct access to sheets from XLSX/ODS files,Nyall Dawson (North Road) ,North Road 
+45,/en/qgis/version/3.8/,Browser, Add the ability to view multiple worksheets in a Spreadsheet,,
+46,/en/qgis/version/3.8/,General,Store QGIS projects inside geopackage files,Alessandro Pasotti,
+47,/en/qgis/version/3.8/,General,Much Improved Coordinate Transform Handling,Nyall Dawson (North Road) ,ICSM 
+48,/en/qgis/version/3.8/,Data Providers,postgres provider: add support for generated identity columns,jef-n ,
+49,/en/qgis/version/3.8/,Data Providers,String List support for compatible layers,Mathieu Pellerin ,
+50,/en/qgis/version/3.8/,Data Providers,Much Improved ArcGIS MapServer Handling,,
+51,/en/qgis/version/3.8/,Data Providers,"SQL Server: handle v2 geometries, including curved and Z/M geometries",Tamas Szekeres ,
+52,/en/qgis/version/3.8/,Data Providers,"SQL Server: handle v2 geometries, including curved and Z/M geometries",Tamas Szekeres ,
+53,/en/qgis/version/3.8/,QGIS Server,Allow configuring size for GetLegendGraphics,"David Signer, OPENGIS.ch ",
+54,/en/qgis/version/3.8/,Programmability,Add REGEXP SQL syntax support to spatialite provider and python connections,,
+55,/en/qgis/version/3.8/,Programmability,Nearest Neighbour search in QgsSpatialIndex,Nyall Dawson (North Road) ,North Road 
+56,/en/qgis/version/3.8/,Notable Fixes,Support for curves in DXF export,Jürgen Fischer with Matthias Kuhn,Kanton Schaffhausen 
+57,/en/qgis/version/3.8/,3D Features,Wide lines and polygon edge highlighting,Martin Dobias ,Andreas Neumann 
+58,/en/qgis/version/3.8/,3D Features,Export all frames from QGIS 3d animations as images,Peter Petrik ,Northumberland National Park Authority 
+59,/en/qgis/version/3.8/,3D Features,Terrain generation from online source,Martin Dobias ,
+60,/en/qgis/version/3.8/,3D Features,Configuration of field of view angle of camera,Martin Dobias ,
