@@ -1,7 +1,7 @@
 # Splash screen QGIS
 Storia di QGIS  attraverso le sue splash screen
 
-![gif](/splash_QGIS/animazioni/splash_2to360_story.gif)
+![gif](/splash_QGIS/animazioni/splash_2to380_story.gif)
 
 my BLOG:
 https://pigrecoinfinito.wordpress.com/2015/12/23/splash-screen-qgis/
