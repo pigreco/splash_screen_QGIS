@@ -53,86 +53,88 @@ version|count|percent|histogram
 ### funded 3.8 Zanzibar
 
 funded|count|percent|histogram
-------|-----|-------|------
-ND|30|51.72|***************
-North Road |12|20.69|******
-SMEC/SJ |6|10.34|***
-Kanton Schaffhausen |3|5.17|*
-anonymous |2|3.45|*
-Andreas Neumann |1|1.72|
-Northumberland National Park Authority |1|1.72|
-Crowdfunding: More QGIS 3D |1|1.72|
-ICSM |1|1.72|
-Oslandia |1|1.72|
+------|------|------|-----
+ND|30|50.00|***************
+North Road |12|20.00|******
+SMEC/SJ |6|10.00|***
+Kanton Schaffhausen |3|5.00|*
+anonymous |2|3.33|*
+A.R.P.A. Piemonte |2|3.33|*
+Oslandia |1|1.67|
+ICSM |1|1.67|
+Andreas Neumann |1|1.67|
+Northumberland National Park Authority |1|1.67|
+Crowdfunding: More QGIS 3D |1|1.67|
 
 ### developer 3.8 Zanzibar
 
 developer|count|percent|histogram
----------|-----|-------|------
-Nyall Dawson (North Road) |23|39.66|***********
-Mathieu Pellerin |8|13.79|****
-ND|5|8.62|**
-Olivier Dalang and OPENGIS.ch |2|3.45|*
-Alessandro Pasotti |2|3.45|*
-Matthias Kuhn |2|3.45|*
-Martin Dobias |1|1.72|
-Peter Petrik (Lutra Consulting) |1|1.72|
-Martin Dobias (Lutra Consulting) |1|1.72|
-Jürgen Fischer|1|1.72|
-Tamas Szekeres |1|1.72|
-Julien Cabieces |1|1.72|
-Matteo Nastasi |1|1.72|
-Loïc Bartoletti (Oslandia) |1|1.72|
-Jürgen Fischer with Matthias Kuhn |1|1.72|
-Raymond Nijssen |1|1.72|
-Marcel-Dančák |1|1.72|
-Rashad Kanavath |1|1.72|
-epifanio |1|1.72|
-Alexander Bruy |1|1.72|
-David Signer OPENGIS.ch|1|1.72|
-henrik|1|1.72|
+---------|-----|-------|-------
+Nyall Dawson (North Road) |23|38.33|***********
+Mathieu Pellerin |8|13.33|****
+ND|5|8.33|**
+Alessandro Pasotti |4|6.67|**
+Matthias Kuhn |2|3.33|*
+Olivier Dalang and OPENGIS.ch |2|3.33|*
+Loïc Bartoletti (Oslandia) |1|1.67|
+henrik|1|1.67|
+Matteo Nastasi |1|1.67|
+Raymond Nijssen |1|1.67|
+Marcel-Dančák |1|1.67|
+Rashad Kanavath |1|1.67|
+epifanio |1|1.67|
+Alexander Bruy |1|1.67|
+Jürgen Fischer|1|1.67|
+Tamas Szekeres |1|1.67|
+Julien Cabieces |1|1.67|
+"David Signer| OPENGIS.ch "|1|1.67|
+Jürgen Fischer with Matthias Kuhn |1|1.67|
+Martin Dobias |1|1.67|
+Peter Petrik (Lutra Consulting) |1|1.67|
+Martin Dobias (Lutra Consulting) |1|1.67|
 
 ### feature 3.8 Zanzibar
 
 feature|count|percent|histogram
--------|-----|-------|------
-Processing|18|31.03|*********
-Symbology|7|12.07|***
-Data Providers|5|8.62|**
-Expressions|5|8.62|**
-3D Features|4|6.90|**
-User Interface|3|5.17|*
-Digitising|2|3.45|*
-General|2|3.45|*
-Labelling|2|3.45|*
-Map Composer|2|3.45|*
-Programmability|2|3.45|*
-Browser|1|1.72|
-Forms and Widgets|1|1.72|
-Map Tools|1|1.72|
-Notable Fixes|1|1.72|
-Plugins|1|1.72|
-QGIS Server|1|1.72|
+-------|-----|-------|-----
+Processing|18|30.00|*********
+Symbology|7|11.67|***
+Expressions|5|8.33|**
+Data Providers|5|8.33|**
+3D Features|4|6.67|**
+User Interface|3|5.00|*
+Forms and Widgets|3|5.00|*
+Labelling|2|3.33|*
+Digitising|2|3.33|*
+Map Composer|2|3.33|*
+General|2|3.33|*
+Programmability|2|3.33|*
+Map Tools|1|1.67|
+Browser|1|1.67|
+QGIS Server|1|1.67|
+Plugins|1|1.67|
+Notable Fixes|1|1.67|
+
 
 ## QGIS 2.0 TO 3.8 FEATURE
 
 data|versione|count|percent|histogram
-----|--------|-----|-------|-----
-2019-06-21|QGIS_3.8.0|58|6.48|******************
-2019-02-22|QGIS_3.6.0|96|10.73|*******************************
-2018-10-26|QGIS_3.4-LTR|77|8.60|*************************
-2018-06-22|QGIS_3.2.0|73|8.16|***********************
-2018-02-23|QGIS_3.0.0|154|17.21|**************************************************
-2016-10-21|QGIS_2.18.0|23|2.57|*******
-2016-07-08|QGIS_2.16.0|93|10.39|******************************
-2016-02-26|QGIS_2.14.0|66|7.37|*********************
-2015-10-23|QGIS_2.12.0|47|5.25|***************
-2015-06-26|QGIS_2.10.0|30|3.35|*********
-2015-02-20|QGIS_2.8.0|34|3.80|***********
-2014-11-01|QGIS_2.6.0|39|4.36|************
+----|--------|-----|-------|------
+2019-06-21|QGIS_3.8.0|60|6.69|*******************
+2019-02-22|QGIS_3.6.0|96|10.70|*******************************
+2018-10-26|QGIS_3.4-LTR|77|8.58|*************************
+2018-06-22|QGIS_3.2.0|73|8.14|***********************
+2018-02-23|QGIS_3.0.0|154|17.17|**************************************************
+2015-02-20|QGIS_2.8.0|34|3.79|***********
+2014-11-01|QGIS_2.6.0|39|4.35|************
 2014-06-27|QGIS_2.4.0|19|2.12|******
 2014-02-22|QGIS_2.2.0|31|3.46|**********
-2013-09-08|QGIS_2.0.0|55|6.15|*****************
+2016-10-21|QGIS_2.18.0|23|2.56|*******
+2016-07-08|QGIS_2.16.0|93|10.37|******************************
+2016-02-26|QGIS_2.14.0|66|7.36|*********************
+2015-10-23|QGIS_2.12.0|47|5.24|***************
+2015-06-26|QGIS_2.10.0|30|3.34|*********
+2013-09-08|QGIS_2.0.0|55|6.13|*****************
 
 
 analisi fatta con [VisiData](https://medium.com/tantotanto/visidata-il-coltellino-svizzero-per-i-dati-che-probabilmente-non-conosci-2209ffd4fa39)
