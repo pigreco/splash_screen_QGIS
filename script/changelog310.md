@@ -88,3 +88,24 @@ Map Tools|1|1.20|
 Expressions|1|1.20|
 Forms and Widgets|1|1.20|
 Browser|1|1.20|
+
+## data 
+
+data|versione|nome|count|percent
+----|--------|----|-----|-------
+2019-10-25|QGIS_3.10|A Coruna|83|8.47
+2019-06-21|QGIS_3.8.0|Zanzibar|60|6.12
+2019-02-22|QGIS_3.6.0|Noosa|96|9.80
+2018-10-26|QGIS_3.4-LTR|Madeira|77|7.86
+2018-06-22|QGIS_3.2.0|Bonn|73|7.45
+2018-02-23|QGIS_3.0.0|Girona|154|15.71
+2016-10-21|QGIS_2.18.0|Las Palmas de G.C.|23|2.35
+2016-07-08|QGIS_2.16.0|Nodebo|93|9.49
+2016-02-26|QGIS_2.14.0|Essen|66|6.73
+2015-10-23|QGIS_2.12.0|Lyon|47|4.80
+2015-06-26|QGIS_2.10.0|Pisa|30|3.06
+2015-02-20|QGIS_2.8.0|Wien|34|3.47
+2014-11-01|QGIS_2.6.0|Brighton|39|3.98
+2014-06-27|QGIS_2.4.0|Chugiack|19|1.94
+2014-02-22|QGIS_2.2.0|Valmiera|31|3.16
+2013-09-08|QGIS_2.0.0|Dufourt|55|5.61
