@@ -1,7 +1,9 @@
 # Scrapare i dati
 
 
-`time (curl -sL "http://changelog.qgis.org/en/qgis/version/list/" | grep -oP '/en/qgis/version/[0-9].*/' | sort | uniq | while read p; do curl -sL "http://changelog.qgis.org""$p""gnu" | grep -E '^\*' | sed -r 's/^\* //g;s/ : /\t/g'| sed -e 's|^|'"$p"'\t|' | nl;done) >./out.txt`
+```
+time (curl -kL 'https://changelog.qgis.org/en/qgis/version/list/' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36' --compressed | grep -oP '/en/qgis/version/[0-9].*/' | sort | uniq | curl -sL "https://changelog.qgis.org/en/qgis/version/3.16/gnu" -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36' --compressed | grep -E '^\*' | sed -r 's/^\* //g;s/ : /\t/g'| sed -e 's|^|'"$p"'\t|' | nl >./out.txt) >./out.txt
+```
 
 aggiunge intestazione:
 
